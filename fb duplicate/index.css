@@ -1,0 +1,421 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0);
+}
+nav{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 89, 255, 0.911);
+    display: flex;
+    color: rgb(85, 85, 85);
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 2;
+    color: rgb(85, 85, 85);
+}
+.logo{
+    width: 130px;
+    height: auto;
+    padding: 5px 50px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.notify{
+    padding-top: 7px;
+}
+.notify img{
+    padding-left: 30px;
+    
+}
+
+.right{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 40%;
+
+}
+.prof-pic{
+    right: 37%;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 4px;
+}
+.online{
+    position: relative;
+}
+.online::after{
+    content:'';
+    width: 7px;
+    height: 7px;
+    border: 2px  solid #fff;
+    border-radius: 50%;
+    background: green;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+
+.search{
+    position: relative;
+    right: 45%;
+    font-size: 15px;
+    width:auto;
+    height: 20px;
+    border: white;
+    top: 10px;
+    outline: none;
+}
+.srch{
+    margin-top: 3px;
+    margin-right:10px;
+    border: 0px;
+    width: 300px;
+    height: 37px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+.lgsrch{
+    position: relative;
+    width:22px;
+    height: 22px;
+    right: 485px;
+    margin-top: 10px;
+}
+
+
+.left-side{
+    position:fixed;
+    width: 23%;
+    height: 100%;
+    background-color: rgba(136, 136, 136, 0.288);
+    margin-top: 43px;
+    border-radius:0px 0px 5px ;
+    box-shadow: 5px 3px 20px rgba(49, 49, 49, 0.37);
+    z-index: 1;
+    color: rgb(85, 85, 85);
+}
+
+.options{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45%;
+    background-color:white;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.26);
+    
+}
+.options img{
+    position: relative;
+    width: 17px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.options h6{
+    position: relative;
+    color:rgb(0, 132, 255);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    left:50px;
+    font-size: small;
+}
+.options label{
+    position: relative;
+    left: 100px;
+    bottom: 17px;
+    font-size: 15px;
+}
+
+
+
+
+.short{
+    position: relative;
+    width: 100%;
+    height: 55%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.short img{
+    position: relative;
+    width: 30px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.short label{
+    position: relative;
+    left:100px;
+    bottom: 23px;
+    font-size: 14px
+}
+.short h5{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.right-side{
+    position:fixed;
+    width: 23%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 43px;
+    border-radius:0px 0px 5px ;
+    right: 0px;
+    box-shadow: -6px 3px 20px rgba(49, 49, 49, 0.37);
+    z-index: 1;
+    color: rgb(85, 85, 85);
+    bottom: 0px;
+}
+.events{
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    padding-left: 30px;
+    
+}
+.events img{
+    width: 20px;
+    height: 20px;
+}
+.event-1{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.event-1 h6{
+    position: relative;
+    top: 23px;
+    right: 120px;
+}
+
+.evbox{
+    position: relative;
+    width: 50px;
+    height:50px;
+    background-color: transparent;
+    border-radius: 15px;
+    align-content: center;
+    top: 10px;
+    box-shadow: 5px 8px 10px rgba(90, 90, 90, 0.911);
+}
+.event-2 h6{
+    position: relative;
+    top: 23px;
+    right: 120px;
+}
+.event-2{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.events hr{
+    position: relative;
+    top: 26px;
+    color: #36363633;
+    width: 90%;
+    left: 4px;
+}
+.ads{
+    margin: 10px;
+    padding-left: 30px;
+    gap: 30px;
+}
+.ads h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ads img{
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+
+.mid{
+    position:absolute;
+    width:742px;
+    height:auto;
+    left:22%;
+    background-color: rgb(231, 231, 231);
+    margin-top:43px;
+    color: rgb(85, 85, 85);
+}
+
+.story{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 10px;
+    left: 15px;
+    color: #fff;
+    margin-left: 60px;
+    
+    
+}
+#card{
+    width: 15%;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-color: black;
+    
+    
+}
+.crd1 img{
+    position: relative;
+    width:40px;
+    height: auto;
+    left: 40px;
+    top: 130px;
+}
+.crd1 h5{
+    position: relative;
+    left: 25px;
+    top :135px;
+}
+.post{
+  position: relative;
+  width: 80%;
+  height: auto;
+  left: 83px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 7px;
+
+}
+.post textarea{
+    position: relative;
+    width: 80%;
+    height: 100px;
+    border-color: grey;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 20px;
+    font-size: medium;
+    left: 40px;
+    border-radius: 5px;
+}
+.post textarea::placeholder{
+    font-size: 16px;
+    
+}
+.react{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
+.react img{
+    position: relative;
+    width: 24px;
+    margin-left: 50px;
+    height: auto;
+    cursor: pointer;
+    
+}
+.postimg2,.postimg3{
+    position: relative;
+    top: 4px;
+}
+.prf-post img{
+    margin-left: 20px;
+    right: 37%;
+    width: 40px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.posts{
+    position: relative;
+    width: 80%;
+    height: fit-content;
+    left: 83px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.prf-post::after{
+    content: "Jhon jacob";
+    color: rgb(85, 85, 85);
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+.img-pst{
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.like{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    
+}
+.like img{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 13px;
+    padding-left:23px;
+    left: 10px;
+    cursor: pointer;
+    
+}
+#like1:hover{
+    content: url("images/like-blue.png");  
+}
+
+
+
+/*to open files*/
+
+.imgsl{
+    position: fixed;
+    left:41%;
+    width:40px;
+    top:85%;
+    opacity: 0;
+    z-index: 10;
+
+}
